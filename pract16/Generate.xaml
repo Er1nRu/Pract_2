@@ -23,7 +23,7 @@
     <Grid>
         <StackPanel>
             <Label x:Name="count" Content="кОЛ"/>
-            <Slider x:Name="sld" Value="1" Maximum="100" TickFrequency="5" Margin="10 0" ValueChanged="sld_ValueChanged" SmallChange="1"/>
+            <Slider x:Name="sld" Maximum="100" TickFrequency="5" Margin="10 0" ValueChanged="sld_ValueChanged" SmallChange="1" TickPlacement="BottomRight" LargeChange="5"/>
             <Button Content="Сгенерировать пользователей" Click="Button_Click"/>
         </StackPanel>
     </Grid>
