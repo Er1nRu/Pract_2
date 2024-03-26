@@ -36,6 +36,7 @@ namespace pract16
             {
                 new User(usernames[r.Next(usernames.Length)], passwords[r.Next(passwords.Length)]);
             }
+            MessageBox.Show("Пользователи сгенерированы!");
         }
 
         private void sld_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
